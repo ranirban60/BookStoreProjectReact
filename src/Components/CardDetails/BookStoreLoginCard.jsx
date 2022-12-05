@@ -24,6 +24,7 @@ export default function BookStoreLoginCard() {
         .catch((error)=>{
             console.log(error)
         })
+        navigate('/book')
     }
 
     return (
